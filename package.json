@@ -1,0 +1,28 @@
+{
+	"name": "paypal-wrapper",
+	"version": "0.0.1",
+	"description": "Just a wrapper around the paypal api for nodejs",
+	"author": "Ryan Clough <me@ryanclough.co.nz>",
+	"contributors": [{
+		"name": "Ryan Loader",
+		"email": ""
+	}],
+	"scripts": {
+		"test": "mocha test"
+	},
+	"dependencies": {
+		"superagent": "latest",
+		"waterline": "latest",
+		"sails-mysql": "latest",
+		"lodash": "latest",
+		"debug": "latest",
+		"q": "latest",
+		"paypal-rest-sdk": "latest"
+	},
+	"devDependencies": {
+		"mocha": "latest",
+		"should": "latest"
+	},
+	"private": true,
+	"license": "MIT"
+}
